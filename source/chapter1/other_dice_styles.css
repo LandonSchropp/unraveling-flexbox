@@ -1,7 +1,9 @@
 body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   flex-wrap: wrap;
   align-content: center;
-
   background: linear-gradient(to top, #222, #333);
 }
 
