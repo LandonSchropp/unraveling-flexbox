@@ -1,0 +1,15 @@
+body {
+  font-family: 'Raleway', sans-serif;
+  padding: 10px;
+  background: linear-gradient(135deg, #b04, #f80) fixed;
+}
+
+.column {
+  padding: 10px 0;
+  background-color: rgba(255, 0, 0, 0.25);
+  text-align: center;
+
+  border: 1px solid transparentize(white, 0.25);
+  background-color: transparentize(white, 0.8);
+  color: transparentize(white, 0.1);
+}
