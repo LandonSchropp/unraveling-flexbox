@@ -1,0 +1,55 @@
+@import "border";
+
+body {
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid black;
+}
+
+.title-bar {
+  background-color: #000fbb;
+  display: flex;
+  padding: 4px;
+}
+
+h1 {
+  font-size: 1rem;
+  color: white;
+  flex: 1 1 0;
+  margin: 0;
+  line-height: 28px;
+  position: relative;
+  top: 1px;
+}
+
+.title-bar button {
+  flex: 0 0 auto;
+  @include border(2px, white, black);
+  background-color: #c0c0c0;
+  align-items: center;
+  line-height: 0;
+  margin-left: 6px;
+}
+
+.icon {
+  margin-right: 6px;
+}
+
+.reset {
+  box-sizing: border-box;
+}
+
+.reset img {
+  padding: 2px;
+}
+
+button {
+  outline: none;
+}

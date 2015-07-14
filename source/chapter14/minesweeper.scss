@@ -1,0 +1,63 @@
+@import "border";
+
+.minesweeper {
+  font-size: 20px;
+  font-family: sans-serif;
+  background-color: #c0c0c0;
+}
+
+button {
+  padding: 0;
+  border: none;
+  background-color: transparent;
+}
+
+.game {
+  padding: 10px;
+  border-top: 7px solid white;
+  border-left: 7px solid white;
+}
+
+.board {
+  @include border(6px, #808080, white);
+  width: 332px;
+  height: 332px;
+
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.space {
+  @include border(4px, white, #808080);
+  flex: 0 0 32px;
+  height: 32px;
+}
+
+.controls {
+  @include border(4px, #808080, white);
+
+  display: flex;
+  justify-content: space-between;
+
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.number {
+  @include border(3px, #808080, white);
+  background-color: #030303;
+}
+
+.reset {
+  @include border(5px, white, #808080);
+  width: 48px;
+  height: 48px;
+}
+
+nav button {
+  margin: 6px 10px;
+}
+
+nav button::first-letter {
+  text-decoration: underline;
+}

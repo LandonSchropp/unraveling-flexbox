@@ -1,0 +1,6 @@
+@mixin border($size, $top-left-color, $bottom-right-color) {
+  border-top: $size solid $top-left-color;
+  border-right: $size solid $bottom-right-color;
+  border-bottom: $size solid $bottom-right-color;
+  border-left: $size solid $top-left-color;
+}
