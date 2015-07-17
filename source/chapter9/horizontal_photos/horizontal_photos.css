@@ -1,0 +1,16 @@
+html, body, section {
+  height: 100%;
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: center;
+}
+
+img {
+  width: auto;
+  height: 120px;
+  margin: 10px;
+}
