@@ -1,0 +1,15 @@
+section {
+  display: flex;
+}
+
+.phi-column {
+  flex-grow: 1.61803;
+  flex-shrink: 1.61803;
+  flex-basis: 0;
+}
+
+.column {
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 0;
+}

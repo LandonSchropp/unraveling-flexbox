@@ -1,0 +1,27 @@
+body {
+  padding: 1px 0;
+}
+
+main {
+  max-width: 560px;
+  height: calc(100% - 40px);
+  margin: 20px auto;
+}
+
+header, footer, section {
+  text-align: center;
+  color: #F98909;
+  padding: 5px;
+  background-color: transparentize(white, 0.30);
+  box-shadow:
+    -1px -1px #F9A440,
+    inset -1px -1px 0 0 #F9A440;
+}
+
+header, footer {
+  line-height: 50px;
+}
+
+section {
+  line-height: 25px;
+}

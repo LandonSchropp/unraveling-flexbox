@@ -1,0 +1,17 @@
+section {
+  max-width: 560px;
+  margin: 20px auto;
+}
+
+[class$="column"] {
+
+  line-height: 160px;
+  text-align: center;
+  font-size: 32px;
+  color: #F98909;
+  padding: 5px;
+  background-color: transparentize(white, 0.30);
+  box-shadow:
+    -1px -1px #F9A440,
+    inset -1px -1px 0 0 #F9A440;
+}

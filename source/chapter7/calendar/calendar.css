@@ -1,0 +1,17 @@
+.week {
+  display: flex;
+}
+
+.day {
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 0;
+}
+
+.week:first-of-type .day:first-of-type {
+  margin-left: 42.85714%;
+}
+
+.week:last-of-type .day:last-of-type {
+  margin-right: 14.285%;
+}

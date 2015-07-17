@@ -1,0 +1,15 @@
+main {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+header, footer {
+  flex: 0 0 50px;
+}
+
+section {
+  flex: 1 1 0;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+}
