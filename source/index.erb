@@ -1,0 +1,17 @@
+---
+title: "Unraveling Flexbox Examples"
+stylesheets:
+  - "/stylesheets/index/index_styles"
+---
+
+<% pages = sitemap.resources.keep_if { |resource| resource.path =~ %r{pages.*html} } %>
+<% pages = pages.group_by { |page| page.data.chapter } %>
+<% pages = pages.sort_by { |chapter| chapter } %>
+<% pages.each do |chapter, chapter_pages| %>
+  <h3>Chapter <%= chapter %></h3>
+  <ul>
+    <% chapter_pages.each do |page| %>
+      <li><%= link_to page.data.title, page.path %></li>
+    <% end %>
+  </ul>
+<% end %>
