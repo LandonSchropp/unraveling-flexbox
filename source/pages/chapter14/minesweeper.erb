@@ -1,0 +1,42 @@
+---
+title: "Chapter 14: Minesweeper"
+stylesheets:
+  - "/stylesheets/chapter14/other_minesweeper_styles"
+  - "/stylesheets/chapter14/minesweeper"
+---
+
+<main>
+  <header class="title-bar">
+    <img class="icon" src="/images/chapter14/icon.svg" width="28" height="28">
+    <h1>Minesweeper</h1>
+    <button>
+      <img src="/images/chapter14/minimize.svg" width="24" height="24">
+    </button>
+    <button>
+      <img src="/images/chapter14/maximize.svg" width="24" height="24">
+    </button>
+    <button>
+      <img src="/images/chapter14/close.svg" width="24" height="24">
+    </button>
+  </header>
+  <div class="minesweeper">
+    <nav>
+      <button>Game</button>
+      <button>Help</button>
+    </nav>
+    <section class="game">
+      <div class="controls">
+        <img class="number" src="/images/chapter14/numbers10.svg">
+        <button type="button" class="reset">
+          <img src="/images/chapter14/smiley.svg">
+        </button>
+        <img class="number" src="/images/chapter14/numbers29.svg">
+      </div>
+      <div class="board">
+        <% 100.times do %>
+          <button class="space"></button>
+        <% end %>
+      </div>
+    </div>
+  </div>
+</main>

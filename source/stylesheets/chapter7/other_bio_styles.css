@@ -1,0 +1,24 @@
+section {
+  max-width: 560px;
+  margin: 20px auto;
+  box-sizing: border-box;
+}
+
+section {
+  color: #F98909;
+  padding: 5px;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 5px;
+  border: 1px solid #F9A440;
+  line-height: 22.5px;
+  padding: 10px;
+  font-style: italic;
+}
+
+figure, p {
+  margin: 0;
+}
+
+figure {
+  height: 90px;
+}
