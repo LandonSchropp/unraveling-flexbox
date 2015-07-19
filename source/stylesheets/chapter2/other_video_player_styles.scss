@@ -1,0 +1,96 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.video-player {
+  box-shadow: 0 0 5 0px rgba(0, 0, 0, 0.3);
+}
+
+img {
+  border-radius: 2px;
+}
+
+button {
+  border: none;
+  padding: 0;
+  background-color: transparent;
+  outline: none;
+}
+
+.volume-controls input[type="range"] {
+  display: block;
+  width: 64px;
+}
+
+.time-elapsed, .time-remaining {
+  color: #d5d5d3;
+  font-size: 14px;
+}
+
+/* style the range input */
+input[type=range]{
+  -webkit-appearance: none;
+  background: transparent;
+  border-color: transparent;
+  color: transparent;
+  outline: none;
+}
+
+@mixin track {
+  height: 4px;
+  background: #d5d5d3;
+  border: none;
+  border-radius: 2px;
+}
+
+@mixin thumb {
+  -webkit-appearance: none;
+  border: none;
+  height: 14px;
+  width: 14px;
+  border-radius: 50%;
+  background: #d5d5d3;
+  margin-top: -5px;
+  border: 1px solid #28271f;
+}
+
+input[type="range"] {
+  padding: 0;
+}
+
+input[type="range"]::-webkit-slider-runnable-track {
+  @include track;
+}
+
+input[type="range"]::-moz-range-track {
+  @include track;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  @include thumb;
+}
+
+input[type="range"]::-moz-range-thumb {
+  @include thumb;
+}
+
+input[type="range"]::-ms-fill-lower,
+input[type="range"]::-ms-fill-upper {
+  background: transparent;
+}
+
+input[type="range"]::-ms-ticks-before,
+input[type="range"]::-ms-ticks-after,
+input[type="range"]::-ms-track {
+  color: transparent;
+}
+
+input[type="range"]::-ms-track {
+  @include track;
+  height: 14px;
+}
+
+input[type="range"]::-ms-thumb {
+  @include thumb;
+  margin-top: 0;
+}

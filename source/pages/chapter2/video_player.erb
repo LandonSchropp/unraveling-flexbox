@@ -1,0 +1,38 @@
+---
+title: "Chapter 2: Video Player"
+chapter: 2
+stylesheets:
+  - "/stylesheets/chapter2/other_video_player_styles"
+  - "/stylesheets/chapter2/video_player"
+fonts:
+  - "http://fonts.googleapis.com/css?family=Open+Sans:300"
+---
+
+<div class="video-player">
+  <img width="960" height="540" src="/images/chapter2/shrek.jpg">
+
+  <div class="controls-container">
+    <div class="controls">
+      <div class="top-controls">
+        <div class="volume-controls">
+          <button><img alt="Low Volume" src="/images/chapter2/low_volume.svg"></button>
+          <input type="range">
+          <button><img alt="High Volume" src="/images/chapter2/high_volume.svg"></button>
+        </div>
+        <div class="playback-controls">
+          <button><img alt="Rewind" src="/images/chapter2/rewind.svg"></button>
+          <button><img alt="Play" src="/images/chapter2/play.svg"></button>
+          <button><img alt="Fast Forward" src="/images/chapter2/fast_forward.svg"></button>
+        </div>
+        <div class="sharing-controls">
+          <button><img alt="Fullscreen" src="/images/chapter2/fullscreen.svg"></button>
+        </div>
+      </div>
+      <div class="progress-controls">
+        <span class="time-elapsed">00:00:00</span>
+        <input type="range">
+        <span class="time-remaining">01:14:26</span>
+      </div>
+    </div>
+  </div>
+</div>
