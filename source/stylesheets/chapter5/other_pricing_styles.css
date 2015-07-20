@@ -1,0 +1,54 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #333;
+  font-size: 18px;
+}
+
+.tier {
+  background-color: white;
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.28);
+}
+
+h3 {
+  line-height: 80px;
+  background-color: #19557d;
+  text-transform: uppercase;
+  color: white;
+  text-align: center;
+  margin: 0;
+}
+
+.tier:nth-of-type(2) h3, .tier:nth-of-type(2) button {
+  background-color: #52a5df
+}
+
+.price {
+  font-weight: 700;
+  font-size: 72px;
+  text-align: center;
+  line-height: 100px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0 0 20px;
+}
+
+li {
+  line-height: 60px;
+}
+
+li:nth-of-type(2n + 1) {
+  background-color: #ededed;
+}
+
+.info {
+  color: #aaa;
+  text-align: center;
+  line-height: 20px;
+  margin: 0 0 20px;
+}
