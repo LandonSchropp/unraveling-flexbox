@@ -1,9 +1,16 @@
 body {
   font-family: 'Open Sans', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .video-player {
   box-shadow: 0 0 5 0px rgba(0, 0, 0, 0.3);
+}
+
+img {
+  display: block;
 }
 
 img {
