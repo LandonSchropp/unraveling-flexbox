@@ -52,3 +52,18 @@ li:nth-of-type(2n + 1) {
   line-height: 20px;
   margin: 0 0 20px;
 }
+
+button {
+  line-height: 60px;
+  border-radius: 4px;
+  font-size: 24px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: white;
+  background-color: #19557d;
+  border: none;
+}
+
+.tier:nth-of-type(2) {
+  position: relative;
+}

@@ -7,16 +7,6 @@
   flex: 1 1 0px;
 }
 
-.tier:nth-last-of-type(1), .tier:nth-last-of-type(3) {
-  margin-top: 40px;
-  margin-bottom: 40px;
-}
-
-.tier:nth-of-type(2) {
-  position: relative;
-  flex: 1 1 60px;
-}
-
 li {
   display: flex;
   padding: 0 20px;
@@ -29,13 +19,14 @@ li img {
 button {
   display: block;
   width: calc(100% - 40px);
-  border: none;
   margin: 20px;
-  line-height: 60px;
-  border-radius: 4px;
-  font-size: 24px;
-  text-transform: uppercase;
-  font-weight: bold;
-  color: white;
-  background-color: #19557d;
+}
+
+.tier:nth-last-of-type(1), .tier:nth-last-of-type(3) {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.tier:nth-of-type(2) {
+  flex-basis: 60px;
 }
