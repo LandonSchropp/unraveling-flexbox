@@ -1,0 +1,43 @@
+---
+title: "Chapter 6: Indented Inputs"
+chapter: 6
+stylesheets:
+  - "/stylesheets/chapter6/other_form_styles"
+  - "/stylesheets/chapter6/indented_inputs"
+javascripts:
+  - "/javascripts/chapter6/indented_inputs"
+fonts:
+  - "http://fonts.googleapis.com/css?family=Open+Sans:400,600"
+---
+
+<form>
+  <div class="fieldset">
+    <input type="checkbox" id="movies">
+    <label for="movies">Do you like movies?</label>
+  </div>
+
+  <div class="fieldset">
+    <input type="checkbox" id="pulp-fiction" data-parent="movies" disabled>
+    <label for="pulp-fiction">Isn’t Pulp Fiction the best?</label>
+  </div>
+
+  <div class="fieldset">
+    <input type="checkbox" id="green-mile" data-parent="movies" disabled>
+    <label for="green-mile">Did you like The Green Mile?</label>
+  </div>
+
+  <div class="fieldset">
+    <input type="checkbox" id="books">
+    <label for="books">How about books?</label>
+  </div>
+
+  <div class="fieldset">
+    <input type="checkbox" id="green-eggs-and-ham" data-parent="books" disabled>
+    <label for="green-eggs-and-ham">Have you read Green Eggs and Ham?</label>
+  </div>
+
+  <div class="fieldset">
+    <input type="checkbox" id="name-of-the-wind" data-parent="books" disabled>
+    <label for="name-of-the-wind">The Name of the Wind?</label>
+  </div>
+</form>

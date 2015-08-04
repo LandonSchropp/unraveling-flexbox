@@ -1,0 +1,15 @@
+.fieldset {
+  margin: 20px 0;
+}
+
+input[data-parent] {
+  margin-left: 30px;
+}
+
+input[disabled] + label {
+  color: #bebebe;
+}
+
+label {
+  font-weight: 400;
+}
