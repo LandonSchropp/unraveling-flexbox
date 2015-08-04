@@ -1,0 +1,40 @@
+---
+title: "Chapter 6: Credit Card Form"
+chapter: 6
+stylesheets:
+  - "/stylesheets/chapter6/other_form_styles"
+  - "/stylesheets/chapter6/credit_card_form"
+fonts:
+  - "http://fonts.googleapis.com/css?family=Open+Sans:400,600"
+---
+
+<form>
+  <div class="fieldset">
+    <label for="name">Name on Card</label>
+    <input id="name" type="text">
+  </div>
+
+  <div class="fieldset input-row">
+    <div class="credit-card-number-container">
+      <label for="credit-card-number">Credit Card Number</label>
+      <input id="credit-card-number" type="number">
+    </div>
+    <div class="cvc-container">
+      <label for="cvc">CVC</label>
+      <input id="cvc" type="number">
+    </div>
+  </div>
+
+  <div class="fieldset input-row">
+    <div class="expiration-month-container">
+      <label for="expiration-month">Exp. Month</label>
+      <input id="expiration-month" type="text">
+    </div>
+    <div class="expiration-year-container">
+      <label for="expiration-year">Exp. Year</label>
+      <input id="expiration-year" type="text">
+    </div>
+  </div>
+
+  <button type="submit">Buy for $99.99</button>
+</form>
