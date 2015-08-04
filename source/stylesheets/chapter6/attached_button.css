@@ -1,0 +1,23 @@
+form {
+  padding-top: 19px;
+  padding-bottom: 19px;
+}
+
+.search-container {
+  display: flex;
+}
+
+input {
+  flex: 1 1 0px;
+
+  border-radius: 8px 0 0 8px;
+  border-right: none;
+}
+
+button {
+  flex: 0 0 auto;
+
+  line-height: 0;
+  padding: 0 20px;
+  border-radius: 0 8px 8px 0;
+}

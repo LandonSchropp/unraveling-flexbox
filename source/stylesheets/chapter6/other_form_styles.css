@@ -17,6 +17,7 @@ button, input {
 }
 
 button, input, label {
+  display: block;
   font-size: 18px;
 }
 
