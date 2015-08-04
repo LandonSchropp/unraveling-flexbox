@@ -1,0 +1,39 @@
+---
+title: "Chapter 6: Multi-Buttons"
+chapter: 6
+stylesheets:
+  - "/stylesheets/chapter6/other_form_styles"
+  - "/stylesheets/chapter6/multi_buttons"
+fonts:
+  - "http://fonts.googleapis.com/css?family=Open+Sans:400,600"
+---
+
+<form>
+  <div class="fieldset">
+    <label for="name">How tall are you?</label>
+    <div class="multi-button">
+      <input type="radio" name="height" id="short" value="short">
+      <label for="short">Short</label>
+      <input type="radio" name="height" id="medium" value="medium">
+      <label for="medium">Medium</label>
+      <input type="radio" name="height" id="tall" value="tall">
+      <label for="tall">Tall</label>
+    </div>
+  </div>
+
+  <div class="fieldset">
+    <label for="name">How many siblings do you have?</label>
+    <div class="multi-button">
+      <input type="radio" name="siblings" id="no-siblings" value="0">
+      <label for="no-siblings">0</label>
+      <input type="radio" name="siblings" id="one-sibling" value="1">
+      <label for="one-sibling">1</label>
+      <input type="radio" name="siblings" id="two-siblings" value="2">
+      <label for="two-siblings">2</label>
+      <input type="radio" name="siblings" id="three-siblings" value="3">
+      <label for="three-siblings">3</label>
+      <input type="radio" name="siblings" id="four-siblings" value="4+">
+      <label for="four-siblings">4+</label>
+    </div>
+  </div>
+</form>
