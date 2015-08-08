@@ -10,14 +10,19 @@ form {
 input {
   flex: 1 1 0px;
 
-  border-radius: 8px 0 0 8px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
   border-right: none;
 }
 
 button {
   flex: 0 0 auto;
 
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+button {
   line-height: 0;
   padding: 0 20px;
-  border-radius: 0 8px 8px 0;
 }

@@ -1,5 +1,6 @@
 label, input, button {
   display: block;
+  width: 100%;
 }
 
 .fieldset, button {
@@ -8,10 +9,6 @@ label, input, button {
 
 .input-row {
   display: flex;
-}
-
-input, button {
-  width: 100%;
 }
 
 .credit-card-number-container {
