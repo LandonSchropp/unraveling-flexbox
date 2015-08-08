@@ -42,11 +42,6 @@
   flex: 0 0 auto;
   display: flex;
   align-items: center;
-  justify-content: center;
-}
-
-button, .time-elapsed, .time-remaining {
-  margin: 0 8px;
 }
 
 .sharing-controls {
@@ -64,4 +59,8 @@ button, .time-elapsed, .time-remaining {
 
 .progress-controls input[type="range"] {
   flex: 1 1 0px;
+}
+
+button, .time-elapsed, .time-remaining {
+  margin: 0 8px;
 }
