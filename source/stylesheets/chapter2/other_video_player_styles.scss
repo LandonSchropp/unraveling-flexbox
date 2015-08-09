@@ -24,6 +24,11 @@ button {
   outline: none;
 }
 
+.controls {
+  background-color: #333;
+  border-radius: 4px;
+}
+
 .volume-controls input[type="range"] {
   display: block;
   width: 64px;

@@ -1,0 +1,27 @@
+.row-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.column-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.row-container > .row, .column-container > .column {
+  flex: 1 1 0px;
+}
+
+$numbers: (one, two, three, four, five, six, seven, eight, nine, ten, eleven, twelve);
+
+@for $index from 1 through length($numbers) {
+  $number: nth($numbers, $index);
+
+  .row-container > .#{ $number }-rows, .column-container > .#{ $number }-columns {
+    flex: $index, $index, 0px;
+  }
+}
+
+.row-container > .auto-row, .column-container > .auto-column {
+  flex: 0 0 auto;
+}

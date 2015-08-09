@@ -18,18 +18,10 @@
   width: 480px;
   margin-bottom: 32px;
   padding: 12px 4px;
-
-  background-color: #333;
-  border-radius: 4px;
 }
 
 .top-controls {
-  display: flex;
   margin-bottom: 8px;
-}
-
-.volume-controls, .sharing-controls {
-  flex: 1 1 0px;
 }
 
 .volume-controls {
@@ -37,7 +29,6 @@
 }
 
 .playback-controls {
-  flex: 0 0 auto;
   display: flex;
   align-items: center;
 }
@@ -45,18 +36,6 @@
 .sharing-controls {
   display: flex;
   justify-content: flex-end;
-}
-
-.progress-controls {
-  display: flex;
-}
-
-.time-elapsed, .time-remaining {
-  flex: 0 0 auto;
-}
-
-.progress-controls input[type="range"] {
-  flex: 1 1 0px;
 }
 
 button, .time-elapsed, .time-remaining {
