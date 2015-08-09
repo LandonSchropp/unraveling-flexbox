@@ -39,7 +39,7 @@ ul {
 }
 
 li {
-  line-height: 60px;
+  line-height: 30px;
 }
 
 li:nth-of-type(2n + 1) {
