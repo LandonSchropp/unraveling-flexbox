@@ -1,0 +1,47 @@
+.tier {
+  padding-bottom: 1px;
+  margin: 20px;
+}
+
+li {
+  display: flex;
+  padding: 15px 20px;
+}
+
+li img {
+  margin-right: 10px;
+}
+
+button {
+  display: block;
+  width: calc(100% - 40px);
+  margin: 20px;
+}
+
+.tier {
+  padding-bottom: 1px;
+  margin: 20px;
+}
+
+@media (min-width: 640px) {
+  .pricing {
+    display: flex;
+    width: calc(100% - 40px);
+    max-width: 960px;
+    margin: 20px auto;
+  }
+
+  .tier {
+    flex: 1 1 0px;
+    margin: 0;
+  }
+
+  .tier:nth-last-of-type(1), .tier:nth-last-of-type(3) {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
+  .tier:nth-of-type(2) {
+    flex-basis: 60px;
+  }
+}

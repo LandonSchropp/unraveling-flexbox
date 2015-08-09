@@ -4,6 +4,10 @@
     <meta charset="utf-8">
     <title><%= current_page.data.title %></title>
 
+    <% if current_page.data.responsive %>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+    <% end %>
+
     <%= stylesheet_link_tag "//cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css" %>
     <%= stylesheet_link_tag "shared_styles" %>
     <% current_page.data.stylesheets.each do |stylesheet| %>
