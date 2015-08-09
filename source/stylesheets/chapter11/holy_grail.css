@@ -1,0 +1,34 @@
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+header, footer, article, nav, aside {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header, footer, nav, aside {
+  flex: 0 0 160px;
+}
+
+main, article {
+  flex: 1 1 0px;
+}
+
+main {
+  display: flex;
+}
+
+article {
+  order: 2;
+}
+
+nav {
+  order: 1;
+}
+
+aside {
+  order: 3;
+}

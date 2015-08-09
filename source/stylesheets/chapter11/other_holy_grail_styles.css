@@ -1,0 +1,26 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #313444;
+  padding: 10px;
+}
+
+header, footer, article, nav, aside {
+  border-radius: 10px;
+  margin: 10px;
+}
+
+header, footer {
+  background-color: #d04374;
+}
+
+article {
+  background-color: #fbb161;
+}
+
+nav {
+  background-color: #fd6b5e;
+}
+
+aside {
+  background-color: #85b8aa;
+}
