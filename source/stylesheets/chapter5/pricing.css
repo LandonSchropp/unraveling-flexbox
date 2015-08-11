@@ -3,7 +3,7 @@
   width: 960px;
 }
 
-.tier {
+.plan {
   flex: 1 1 0px;
 }
 
@@ -22,11 +22,11 @@ button {
   margin: 20px;
 }
 
-.tier:nth-last-of-type(1), .tier:nth-last-of-type(3) {
+.plan:nth-last-of-type(1), .plan:nth-last-of-type(3) {
   margin-top: 40px;
   margin-bottom: 40px;
 }
 
-.tier:nth-of-type(2) {
+.plan:nth-of-type(2) {
   flex-basis: 60px;
 }

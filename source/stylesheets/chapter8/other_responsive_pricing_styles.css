@@ -5,7 +5,7 @@ body {
   padding: 1px;
 }
 
-.tier {
+.plan {
   background-color: white;
   box-shadow: 0 0 40px rgba(0, 0, 0, 0.28);
 }
@@ -19,7 +19,7 @@ h3 {
   margin: 0;
 }
 
-.tier:nth-of-type(2) h3, .tier:nth-of-type(2) button {
+.plan:nth-of-type(2) h3, .plan:nth-of-type(2) button {
   background-color: #52a5df
 }
 
@@ -63,6 +63,6 @@ button {
   border: none;
 }
 
-.tier:nth-of-type(2) {
+.plan:nth-of-type(2) {
   position: relative;
 }
