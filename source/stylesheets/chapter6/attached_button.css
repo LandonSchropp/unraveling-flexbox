@@ -1,10 +1,13 @@
-form {
-  padding-top: 19px;
-  padding-bottom: 19px;
-}
-
 .search-container {
   display: flex;
+}
+
+input {
+  flex: 1 1 0px;
+}
+
+button {
+  flex: 0 0 auto;
 }
 
 input {
@@ -20,9 +23,4 @@ button {
 
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
-}
-
-button {
-  line-height: 0;
-  padding: 0 20px;
 }
