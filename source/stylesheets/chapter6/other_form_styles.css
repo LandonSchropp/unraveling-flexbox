@@ -54,3 +54,9 @@ input[type=number]::-webkit-outer-spin-button {
   -webkit-appearance: none;
   margin: 0;
 }
+
+fieldset {
+  margin: 20px 0;
+  padding: 0;
+  border: none;
+}
