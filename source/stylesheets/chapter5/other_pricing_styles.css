@@ -35,11 +35,7 @@ h3 {
 ul {
   list-style-type: none;
   padding: 0;
-  margin: 0 0 20px;
-}
-
-li {
-  line-height: 30px;
+  margin: 0;
 }
 
 li:nth-of-type(2n + 1) {
@@ -51,6 +47,10 @@ li:nth-of-type(2n + 1) {
   text-align: center;
   line-height: 20px;
   margin: 0 0 20px;
+}
+
+.info:nth-of-type(2) {
+  margin-top: 20px;
 }
 
 button {

@@ -9,6 +9,7 @@
 
 li {
   display: flex;
+  line-height: 30px;
   padding: 15px 20px;
 }
 
@@ -22,7 +23,7 @@ button {
   margin: 20px;
 }
 
-.plan:nth-last-of-type(1), .plan:nth-last-of-type(3) {
+.plan:nth-of-type(1), .plan:nth-of-type(3) {
   margin-top: 40px;
   margin-bottom: 40px;
 }
