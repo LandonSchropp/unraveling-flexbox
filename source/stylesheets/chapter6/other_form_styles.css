@@ -12,8 +12,9 @@ body {
 
 button, input {
   line-height: 30px;
-  padding: 4px;
+  padding: 4px 8px;
   border-radius: 8px;
+  outline: none;
 }
 
 button, input, label {
@@ -34,7 +35,7 @@ input {
 }
 
 form {
-  width: 440px;
+  width: 400px;
   padding: 0 19px;
 
   border: 1px solid #bebebe;
@@ -59,4 +60,19 @@ fieldset {
   margin: 20px 0;
   padding: 0;
   border: none;
+}
+
+::placeholder {
+  color: #999;
+}
+
+h2 {
+  font-size: 18px;
+  text-align: center;
+  line-height: 1;
+  margin: $20px;
+}
+
+.fieldset, button {
+  margin: 20px 0;
 }

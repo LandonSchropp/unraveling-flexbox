@@ -3,19 +3,11 @@ label, input, button {
   width: 100%;
 }
 
-.fieldset, button {
-  margin: 20px 0;
-}
-
 .input-row {
   display: flex;
 }
 
-.credit-card-number-container {
-  flex: 3 3 40px;
-}
-
-.cvc-container, .expiration-month-container, .expiration-year-container {
+.input-row > * {
   flex: 1 1 0px;
 }
 
@@ -25,4 +17,8 @@ label, input, button {
 
 .input-row > :last-child {
   margin-left: 10px;
+}
+
+.credit-card-number-container {
+  flex: 3 3 40px;
 }
