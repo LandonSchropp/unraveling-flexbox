@@ -1,0 +1,42 @@
+---
+title: "Progressively Enhanced Multi-Buttons"
+chapter: 10
+javascripts:
+  - "https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"
+stylesheets:
+  - "/stylesheets/chapter6/other_form_styles"
+  - "/stylesheets/chapter10/other_progressively_enhanced_multi_button_styles"
+  - "/stylesheets/chapter10/progressively_enhanced_multi_buttons"
+fonts:
+  - "http://fonts.googleapis.com/css?family=Open+Sans:400,600"
+---
+
+<form>
+  <fieldset>
+    <label for="name">How tall are you?</label>
+    <div class="multi-button">
+      <input type="radio" name="height" id="short" value="short">
+      <label for="short">Short</label>
+      <input type="radio" name="height" id="medium" value="medium">
+      <label for="medium">Medium</label>
+      <input type="radio" name="height" id="tall" value="tall">
+      <label for="tall">Tall</label>
+    </div>
+  </fieldset>
+
+  <fieldset>
+    <label for="name">How many siblings do you have?</label>
+    <div class="multi-button">
+      <input type="radio" name="siblings" id="no-siblings" value="0">
+      <label for="no-siblings">0</label>
+      <input type="radio" name="siblings" id="one-sibling" value="1">
+      <label for="one-sibling">1</label>
+      <input type="radio" name="siblings" id="two-siblings" value="2">
+      <label for="two-siblings">2</label>
+      <input type="radio" name="siblings" id="three-siblings" value="3">
+      <label for="three-siblings">3</label>
+      <input type="radio" name="siblings" id="four-siblings" value="4+">
+      <label for="four-siblings">4+</label>
+    </div>
+  </fieldset>
+</form>

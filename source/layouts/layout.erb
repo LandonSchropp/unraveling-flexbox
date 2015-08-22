@@ -25,5 +25,11 @@
 
   <body>
     <%= yield %>
+
+    <% if current_page.data.javascripts %>
+      <% current_page.data.javascripts.each do |script| %>
+        <%= javascript_include_tag script %>
+      <% end %>
+    <% end %>
   </body>
 </html>
