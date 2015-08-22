@@ -6,8 +6,10 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
+  padding: 20px;
 }
 
 button, input {
@@ -36,6 +38,7 @@ input {
 form {
   width: 400px;
   padding: 0 19px;
+  margin: 10px;
 
   border: 1px solid #bebebe;
   box-shadow: 0 5px 20px rgba(220, 220, 220, 0.5);
