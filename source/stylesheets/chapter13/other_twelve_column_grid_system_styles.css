@@ -16,3 +16,8 @@ p {
 .row-container {
   margin: 10px 0;
 }
+
+.auto-column p {
+  padding-left: 19px;
+  padding-right: 19px;
+}
