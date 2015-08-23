@@ -66,3 +66,11 @@ button {
 .plan:nth-of-type(2) {
   position: relative;
 }
+
+@media (min-width: 640px) {
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
