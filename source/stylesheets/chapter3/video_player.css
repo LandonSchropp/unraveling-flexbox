@@ -18,33 +18,6 @@
   width: 480px;
   margin-bottom: 32px;
   padding: 12px 4px;
-
-  background-color: rgba(51, 51, 51, 0.95);
-  border-radius: 4px;
-}
-
-.top-controls {
-  display: flex;
-  margin-bottom: 8px;
-}
-
-.volume-controls, .sharing-controls {
-  flex: 1 1 0px;
-}
-
-.volume-controls {
-  display: flex;
-}
-
-.playback-controls {
-  flex: 0 0 auto;
-  display: flex;
-  align-items: center;
-}
-
-.sharing-controls {
-  display: flex;
-  justify-content: flex-end;
 }
 
 .progress-controls {
@@ -57,6 +30,28 @@
 
 .progress-controls input[type="range"] {
   flex: 1 1 0px;
+}
+
+.top-controls {
+  display: flex;
+  margin-bottom: 8px;
+}
+
+.volume-controls, .playback-controls, .size-controls {
+  display: flex;
+  align-items: center;
+}
+
+.playback-controls {
+  flex: 0 0 auto;
+}
+
+.volume-controls, .size-controls {
+  flex: 1 1 0px;
+}
+
+.size-controls {
+  justify-content: flex-end;
 }
 
 button, .time-elapsed, .time-remaining {
