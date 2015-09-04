@@ -3,20 +3,25 @@ label, input, button {
   width: 100%;
 }
 
-.input-row {
+.fieldset {
   display: flex;
 }
 
-.input-row > * {
+.fieldset > * {
   flex: 1 1 0px;
 }
 
-.input-row > :first-child {
+.fieldset > * {
+  margin-left: 10px;
   margin-right: 10px;
 }
 
-.input-row > :last-child {
-  margin-left: 10px;
+.fieldset > :first-child {
+  margin-left: 0;
+}
+
+.fieldset > :last-child {
+  margin-right: 0;
 }
 
 .credit-card-number-container {
