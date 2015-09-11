@@ -1,11 +1,10 @@
 body {
-  padding: 1px 0;
+  padding: 20px 0;
 }
 
 main {
   max-width: 560px;
-  height: calc(100% - 40px);
-  margin: 20px auto;
+  margin: 0 auto;
 }
 
 header, footer, section {
