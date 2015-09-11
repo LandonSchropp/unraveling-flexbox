@@ -29,7 +29,7 @@ button {
 
 .space {
   @include border(4px, white, #808080);
-  flex: 0 0 32px;
+  width: 32px;
   height: 32px;
 }
 
