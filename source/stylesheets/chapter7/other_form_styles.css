@@ -25,7 +25,7 @@ button, input, label {
 
 button {
   border: 1px solid #5c2a76;
-  background: linear-gradient(top, #905ae3, #784bc0);
+  background: linear-gradient(to bottom, #905ae3, #784bc0);
 
   color: white;
   text-shadow: 0 2px 2px rgba(0, 0, 0, 0.5);
