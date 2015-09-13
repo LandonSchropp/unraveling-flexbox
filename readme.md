@@ -4,7 +4,7 @@ This repository contains the code examples from the book [Unraveling Flexbox](ht
 
 ## Running the examples
 
-The examples are built using [Middleman](https://middlemanapp.com/), an static site generator. To run the examples, install the Middleman gem with `gem install middleman`. Then, change to the directory of this repository and run `middleman` in your console.
+The examples are built using [Middleman](https://middlemanapp.com/), an static site generator. To run the examples, install [Bundler](http://bundler.io/), change to this project's directory and run `bundle install`. Then, run `bundle exec middleman`.
 
 ## Organization
 
