@@ -8,6 +8,7 @@ end
 
 activate :deploy do |deploy|
   deploy.method = :git
+  deploy.build_before = true
 end
 
 set :css_dir, 'stylesheets'
