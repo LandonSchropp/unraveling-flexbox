@@ -1,0 +1,8 @@
+version: '2'
+services:
+  middleman:
+    build: .
+    volumes:
+      - .:/app
+    ports:
+      - "4567:4567"
