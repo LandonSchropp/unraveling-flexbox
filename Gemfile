@@ -1,7 +1,6 @@
 source 'https://rubygems.org'
 
 gem "middleman", "~> 3.3.12"
-gem "middleman-livereload", "~> 3.4.3"
 gem 'middleman-autoprefixer', "~> 2.6.0"
 gem 'w3c_validators', "~> 1.2"
 gem 'colorize', '~> 0.7.7'
