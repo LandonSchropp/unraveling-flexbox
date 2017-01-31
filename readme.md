@@ -7,26 +7,35 @@ The examples are built using [Middleman](https://middlemanapp.com/), a static si
 
 ## Running the Examples with Docker
 
-The easiest way to run the examples locally is with [Docker](https://www.docker.com/). To get a
-development server up and running:
+To get started, you'll need to have [Git](https://git-scm.com/) and the *latest* version of
+[Docker](https://www.docker.com/products/docker) installed.
 
-1. Clone this repo and change into its directory.
-2. Download and install the *latest* version of [Docker](https://www.docker.com/products/docker) for your platform.
-3. Run `docker-compose up`.
+Next, clone the application's repository and change into that directory.
+
+``` sh
+git clone https://github.com/LandonSchropp/unraveling_flexbox
+cd unraveling_flexbox
+```
+
+Finally, start up the application.
+
+``` sh
+docker-compose up
+```
 
 That's it! The first time the server runs, it may take a little while for the project's Docker
 container to build. When it's done, you should be able to navigate to
 [localhost:4567](http://localhost:4567) to view the application.
 
-To make a change to an existing file, simply edit the file, save it, and refresh the browser.
+To make a change to an existing file, simply edit the file, save it, and refresh your browser.
 
 ## Running the Examples Locally
 
-If you'd like, you can run the server outside of a virtual machine. To do so, you'll need to have a
-full Ruby environment installed on your system.
+If you'd like, you can run the server outside of a virtual machine. I'd only recommend doing this
+if you're experienced with setting up a Ruby development environment.
 
-1. Install [Bundler](http://bundler.io/).
-2. Change to this project's directory and run `bundle install`.
+1. Install Ruby and [Bundler](http://bundler.io/).
+2. Run `bundle install` inside this project's directory.
 3. Run `bundle exec middleman` to start up the project.
 
 ## Organization
