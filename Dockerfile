@@ -4,7 +4,7 @@ FROM ruby:2.5.0
 RUN apt-get update && apt-get install -y nodejs
 
 # Install the gems
-ADD Gemfile Gemfile.lock /app/
+ADD Gemfile Gemfile.lock .ruby-version /app/
 WORKDIR /app
 RUN bundle install
 

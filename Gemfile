@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+ruby IO.read('.ruby-version')
+
 gem "middleman", "~> 3.3.12"
 gem 'middleman-autoprefixer', "~> 2.6.0"
 gem 'w3c_validators', "~> 1.2"
