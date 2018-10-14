@@ -1,0 +1,84 @@
+/* line 3, /Users/landon/Development/unraveling-flexbox/unraveling-flexbox/source/stylesheets/chapter14/minesweeper.scss */
+.minesweeper {
+  font-size: 20px;
+  font-family: sans-serif;
+  background-color: #c0c0c0; }
+
+/* line 9, /Users/landon/Development/unraveling-flexbox/unraveling-flexbox/source/stylesheets/chapter14/minesweeper.scss */
+button {
+  padding: 0;
+  border: none;
+  background-color: transparent; }
+
+/* line 15, /Users/landon/Development/unraveling-flexbox/unraveling-flexbox/source/stylesheets/chapter14/minesweeper.scss */
+.game {
+  padding: 10px;
+  border-top: 7px solid white;
+  border-left: 7px solid white; }
+
+/* line 21, /Users/landon/Development/unraveling-flexbox/unraveling-flexbox/source/stylesheets/chapter14/minesweeper.scss */
+.board {
+  border-top: 6px solid #808080;
+  border-right: 6px solid white;
+  border-bottom: 6px solid white;
+  border-left: 6px solid #808080;
+  width: 332px;
+  height: 332px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap; }
+
+/* line 30, /Users/landon/Development/unraveling-flexbox/unraveling-flexbox/source/stylesheets/chapter14/minesweeper.scss */
+.space {
+  border-top: 4px solid white;
+  border-right: 4px solid #808080;
+  border-bottom: 4px solid #808080;
+  border-left: 4px solid white;
+  width: 32px;
+  height: 32px; }
+
+/* line 36, /Users/landon/Development/unraveling-flexbox/unraveling-flexbox/source/stylesheets/chapter14/minesweeper.scss */
+.controls {
+  border-top: 4px solid #808080;
+  border-right: 4px solid white;
+  border-bottom: 4px solid white;
+  border-left: 4px solid #808080;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 10px;
+  padding: 10px; }
+
+/* line 46, /Users/landon/Development/unraveling-flexbox/unraveling-flexbox/source/stylesheets/chapter14/minesweeper.scss */
+.number {
+  border-top: 3px solid #808080;
+  border-right: 3px solid white;
+  border-bottom: 3px solid white;
+  border-left: 3px solid #808080;
+  background-color: #030303; }
+
+/* line 51, /Users/landon/Development/unraveling-flexbox/unraveling-flexbox/source/stylesheets/chapter14/minesweeper.scss */
+.reset {
+  border-top: 5px solid white;
+  border-right: 5px solid #808080;
+  border-bottom: 5px solid #808080;
+  border-left: 5px solid white;
+  width: 48px;
+  height: 48px; }
+
+/* line 57, /Users/landon/Development/unraveling-flexbox/unraveling-flexbox/source/stylesheets/chapter14/minesweeper.scss */
+nav button {
+  margin: 6px 10px; }
+
+/* line 61, /Users/landon/Development/unraveling-flexbox/unraveling-flexbox/source/stylesheets/chapter14/minesweeper.scss */
+nav button::first-letter {
+  text-decoration: underline; }

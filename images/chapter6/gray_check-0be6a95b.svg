@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="30px" height="30px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.3 (12072) - http://www.bohemiancoding.com/sketch -->
+    <title>gray_check</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="gray_check" sketch:type="MSArtboardGroup">
+            <g id="Oval-1-+-Path-1" sketch:type="MSLayerGroup">
+                <circle id="Oval-1" fill="#BBBBBB" sketch:type="MSShapeGroup" cx="15" cy="15" r="15"></circle>
+                <path d="M21.8653844,8.94230769 L13.3917024,21.0576923 L7.73076901,14.7628992" id="Path-1" stroke="#FFFFFF" stroke-width="3" sketch:type="MSShapeGroup"></path>
+            </g>
+        </g>
+    </g>
+</svg>

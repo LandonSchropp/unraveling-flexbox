@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="987px" height="611px" viewBox="0 0 987 611" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.3 (12072) - http://www.bohemiancoding.com/sketch -->
+    <title>golden_spiral</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="golden_spiral" sketch:type="MSArtboardGroup" stroke="#F7A34B">
+            <g id="Fibonacci_spiral" sketch:type="MSLayerGroup" transform="translate(0.000000, 1.000000)">
+                <path d="M0.499996395,610.449802 C0.500044216,273.605508 273.566248,0.539280386 610.410464,0.53928262" id="path1873" stroke-width="2.00231258" sketch:type="MSShapeGroup"></path>
+                <path d="M610.242392,376.620838 C610.242421,168.918134 778.618739,0.541840123 986.321442,0.5418415" id="path1875" stroke-width="2.00231257" sketch:type="MSShapeGroup" transform="translate(798.281917, 188.581340) scale(-1, 1) translate(-798.281917, -188.581340) "></path>
+                <path d="M754.011991,608.896238 C754.012009,480.59509 858.020699,376.58647 986.321913,376.586471" id="path2762" stroke-width="2.00231253" sketch:type="MSShapeGroup" transform="translate(870.166952, 492.741354) rotate(-180.000000) translate(-870.166952, -492.741354) "></path>
+                <path d="M611.294492,608.896026 C611.294503,530.053727 675.20872,466.139422 754.050897,466.139423" id="path2764" stroke-width="2.00231267" sketch:type="MSShapeGroup" transform="translate(682.672695, 537.517724) scale(1, -1) translate(-682.672695, -537.517724) "></path>
+                <path d="M611.294493,466.173284 C611.2945,417.82377 650.489442,378.628749 698.838851,378.628749" id="path2766" stroke-width="2.00231271" sketch:type="MSShapeGroup"></path>
+                <path d="M698.786617,433.456307 C698.786622,403.176551 723.333065,378.629961 753.612636,378.629961" id="path2768" stroke-width="2.00231298" sketch:type="MSShapeGroup" transform="translate(726.199627, 406.043134) scale(-1, 1) translate(-726.199627, -406.043134) "></path>
+                <path d="M720.550242,465.882378 C720.550244,447.622311 735.352806,432.819603 753.61269,432.819603" id="path2770" stroke-width="2.00231325" sketch:type="MSShapeGroup" transform="translate(737.081466, 449.350990) scale(-1, -1) translate(-737.081466, -449.350990) "></path>
+                <path d="M700.393355,465.882314 C700.393357,454.680753 709.473923,445.600094 720.675369,445.600094" id="path2772" stroke-width="2.00231327" sketch:type="MSShapeGroup" transform="translate(710.534362, 455.741204) scale(1, -1) translate(-710.534362, -455.741204) "></path>
+                <path d="M700.393345,445.725841 C700.393346,438.840093 705.975288,433.258092 712.860961,433.258092" id="path2774" stroke-width="2.0023133" sketch:type="MSShapeGroup"></path>
+                <path d="M712.735679,440.102393 C712.73568,436.322419 715.799919,433.258145 719.579849,433.258145" id="path2776" stroke-width="2.00231334" sketch:type="MSShapeGroup" transform="translate(716.157764, 436.680269) scale(-1, 1) translate(-716.157764, -436.680269) "></path>
+                <path d="M714.853528,444.704086 C714.853529,442.093808 716.969551,439.97776 719.579797,439.97776" id="path2778" stroke-width="2.0023134" sketch:type="MSShapeGroup" transform="translate(717.216663, 442.340923) rotate(-180.000000) translate(-717.216663, -442.340923) "></path>
+                <path d="M713.0277,444.704623 C713.0277,443.627049 713.901233,442.753503 714.978791,442.753503" id="path2780" stroke-width="2.0023136" sketch:type="MSShapeGroup" transform="translate(714.003245, 443.729063) scale(1, -1) translate(-714.003245, -443.729063) "></path>
+                <path d="M713.049988,442.778933 C713.049988,441.630777 713.734992,440.700012 714.579988,440.700012" id="path2782" stroke-width="2.06948852" sketch:type="MSShapeGroup"></path>
+            </g>
+        </g>
+    </g>
+</svg>

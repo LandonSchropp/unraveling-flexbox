@@ -1,0 +1,14 @@
+body {
+  padding: 20px;
+  background-size: 4px 4px;
+}
+
+section {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+img {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.35);
+  border: 10px solid white;
+}

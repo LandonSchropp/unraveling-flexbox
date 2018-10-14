@@ -1,0 +1,6 @@
+body {
+  background: -webkit-linear-gradient(top, #fad961, #f76d1d);
+  background: linear-gradient(to bottom, #fad961, #f76d1d);
+  background-attachment: fixed;
+  padding: 1px 0;
+}

@@ -1,0 +1,38 @@
+label, input, button {
+  display: block;
+  width: 100%;
+}
+
+.fieldset {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.fieldset > * {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 1 0px;
+      -ms-flex: 1 1 0px;
+          flex: 1 1 0px;
+}
+
+.fieldset > * {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.fieldset > :first-child {
+  margin-left: 0;
+}
+
+.fieldset > :last-child {
+  margin-right: 0;
+}
+
+.credit-card-number-container {
+  -webkit-box-flex: 3;
+  -webkit-flex: 3 3 40px;
+      -ms-flex: 3 3 40px;
+          flex: 3 3 40px;
+}

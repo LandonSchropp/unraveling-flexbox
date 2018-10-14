@@ -1,0 +1,36 @@
+body {
+  text-align: center;
+  font-size: 24px;
+  background-color: #524a79;
+
+  display: -webkit-box;
+
+  display: -webkit-flex;
+
+  display: -ms-flexbox;
+
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+button {
+  margin: 100px 0;
+  padding: 20px 40px;
+  line-height: 20px;
+
+  border: none;
+  border-radius: 30px;
+  background-color: #97d8ec;
+  background: -webkit-linear-gradient(top, #97d8ec, #74bbca);
+  background: linear-gradient(to bottom, #97d8ec, #74bbca);
+  color: #3e3245;
+  text-shadow: 0 0 1px rgba(255, 255, 255, 0.5);
+  box-shadow: 0 0 20px #3e3245;
+}

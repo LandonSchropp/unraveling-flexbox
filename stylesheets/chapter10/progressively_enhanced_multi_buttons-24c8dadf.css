@@ -1,0 +1,51 @@
+.flexbox label {
+  display: block;
+}
+
+.flexbox input {
+  display: none;
+}
+
+.flexbox .multi-button {
+  border: 1px solid #513681;
+  background: -webkit-linear-gradient(top, #905ae3, #784bc0);
+  background: linear-gradient(to bottom, #905ae3, #784bc0);
+  color: white;
+  text-shadow: 0 2px 2px rgba(0, 0, 0, 0.5);
+  border-radius: 8px;
+
+  display: -webkit-box;
+
+  display: -webkit-flex;
+
+  display: -ms-flexbox;
+
+  display: flex;
+}
+
+.flexbox .multi-button label {
+  text-align: center;
+  margin-bottom: 0;
+  line-height: 30px;
+  padding: 4px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+
+  -webkit-box-flex: 1;
+
+  -webkit-flex: 1 1 0px;
+
+      -ms-flex: 1 1 0px;
+
+          flex: 1 1 0px;
+}
+
+.flexbox .multi-button label:not(:first-of-type) {
+  box-shadow: inset 1px 0 #513681;
+}
+
+.flexbox input:checked + label {
+  background-color: rgba(0, 0, 0, 0.25);
+}

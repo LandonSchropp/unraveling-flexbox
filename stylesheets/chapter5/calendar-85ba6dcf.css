@@ -1,0 +1,27 @@
+.week {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.day {
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  -webkit-flex-shrink: 1;
+      -ms-flex-negative: 1;
+          flex-shrink: 1;
+  -webkit-flex-basis: 0;
+      -ms-flex-preferred-size: 0;
+          flex-basis: 0;
+}
+
+.week:first-of-type .day:first-of-type {
+  margin-left: 42.857%;
+}
+
+.week:last-of-type .day:last-of-type {
+  margin-right: 14.285%;
+}

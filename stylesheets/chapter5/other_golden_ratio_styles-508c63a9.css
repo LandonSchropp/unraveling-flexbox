@@ -1,0 +1,25 @@
+section {
+  margin: 20px auto;
+  position: relative;
+}
+
+[class$="column"], [class$="row"] {
+  background-color: rgba(255, 255, 255, 0.25);
+  box-shadow:
+    -1px -1px #F9A440,
+    inset -1px -1px 0 0 #F9A440;
+}
+
+section::before {
+  content: "";
+
+  display: block;
+  position: absolute;
+  top: -1px;
+  bottom: 1px;
+  left: 0;
+  right: 0;
+
+  background-image: url(/images/chapter5/golden_spiral-a23590b2.svg);
+  background-size: 100%;
+}

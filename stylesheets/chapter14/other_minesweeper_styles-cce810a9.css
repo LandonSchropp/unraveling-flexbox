@@ -1,0 +1,84 @@
+/* line 3, /Users/landon/Development/unraveling-flexbox/unraveling-flexbox/source/stylesheets/chapter14/other_minesweeper_styles.scss */
+body {
+  font-size: 20px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+/* line 10, /Users/landon/Development/unraveling-flexbox/unraveling-flexbox/source/stylesheets/chapter14/other_minesweeper_styles.scss */
+main {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border: 2px solid black; }
+
+/* line 16, /Users/landon/Development/unraveling-flexbox/unraveling-flexbox/source/stylesheets/chapter14/other_minesweeper_styles.scss */
+.title-bar {
+  background-color: #000fbb;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 4px; }
+
+/* line 22, /Users/landon/Development/unraveling-flexbox/unraveling-flexbox/source/stylesheets/chapter14/other_minesweeper_styles.scss */
+h1 {
+  font-size: 1rem;
+  color: white;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 1 0px;
+      -ms-flex: 1 1 0px;
+          flex: 1 1 0px;
+  margin: 0;
+  line-height: 28px;
+  position: relative;
+  top: 1px; }
+
+/* line 32, /Users/landon/Development/unraveling-flexbox/unraveling-flexbox/source/stylesheets/chapter14/other_minesweeper_styles.scss */
+.title-bar button {
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 auto;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
+  border-top: 2px solid white;
+  border-right: 2px solid black;
+  border-bottom: 2px solid black;
+  border-left: 2px solid white;
+  background-color: #c0c0c0;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  line-height: 0;
+  margin-left: 6px; }
+
+/* line 41, /Users/landon/Development/unraveling-flexbox/unraveling-flexbox/source/stylesheets/chapter14/other_minesweeper_styles.scss */
+.icon {
+  margin-right: 6px; }
+
+/* line 45, /Users/landon/Development/unraveling-flexbox/unraveling-flexbox/source/stylesheets/chapter14/other_minesweeper_styles.scss */
+.reset {
+  box-sizing: border-box; }
+
+/* line 49, /Users/landon/Development/unraveling-flexbox/unraveling-flexbox/source/stylesheets/chapter14/other_minesweeper_styles.scss */
+.reset img {
+  padding: 2px; }
+
+/* line 53, /Users/landon/Development/unraveling-flexbox/unraveling-flexbox/source/stylesheets/chapter14/other_minesweeper_styles.scss */
+button {
+  outline: none; }

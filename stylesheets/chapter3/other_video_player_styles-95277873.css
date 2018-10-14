@@ -1,0 +1,129 @@
+/* line 1, /Users/landon/Development/unraveling-flexbox/unraveling-flexbox/source/stylesheets/chapter3/other_video_player_styles.scss */
+body {
+  font-family: 'Open Sans', sans-serif;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+/* line 8, /Users/landon/Development/unraveling-flexbox/unraveling-flexbox/source/stylesheets/chapter3/other_video_player_styles.scss */
+.video-player {
+  box-shadow: 0 0 5px 0px rgba(0, 0, 0, 0.3); }
+
+/* line 12, /Users/landon/Development/unraveling-flexbox/unraveling-flexbox/source/stylesheets/chapter3/other_video_player_styles.scss */
+img {
+  display: block; }
+
+/* line 16, /Users/landon/Development/unraveling-flexbox/unraveling-flexbox/source/stylesheets/chapter3/other_video_player_styles.scss */
+img {
+  border-radius: 2px; }
+
+/* line 20, /Users/landon/Development/unraveling-flexbox/unraveling-flexbox/source/stylesheets/chapter3/other_video_player_styles.scss */
+button {
+  border: none;
+  padding: 0;
+  background-color: transparent;
+  outline: none; }
+
+/* line 27, /Users/landon/Development/unraveling-flexbox/unraveling-flexbox/source/stylesheets/chapter3/other_video_player_styles.scss */
+.controls {
+  background-color: rgba(51, 51, 51, 0.95);
+  border-radius: 4px; }
+
+/* line 32, /Users/landon/Development/unraveling-flexbox/unraveling-flexbox/source/stylesheets/chapter3/other_video_player_styles.scss */
+.volume-controls input[type="range"] {
+  display: block;
+  width: 64px; }
+
+/* line 37, /Users/landon/Development/unraveling-flexbox/unraveling-flexbox/source/stylesheets/chapter3/other_video_player_styles.scss */
+.time-elapsed, .time-remaining {
+  color: #d5d5d3;
+  font-size: 14px; }
+
+/* style the range input */
+/* line 43, /Users/landon/Development/unraveling-flexbox/unraveling-flexbox/source/stylesheets/chapter3/other_video_player_styles.scss */
+input[type=range] {
+  -webkit-appearance: none;
+  background: transparent;
+  border-color: transparent;
+  color: transparent;
+  outline: none; }
+
+/* line 69, /Users/landon/Development/unraveling-flexbox/unraveling-flexbox/source/stylesheets/chapter3/other_video_player_styles.scss */
+input[type="range"] {
+  padding: 0; }
+
+/* line 73, /Users/landon/Development/unraveling-flexbox/unraveling-flexbox/source/stylesheets/chapter3/other_video_player_styles.scss */
+input[type="range"]::-webkit-slider-runnable-track {
+  height: 4px;
+  background: #d5d5d3;
+  border: none;
+  border-radius: 2px; }
+
+/* line 77, /Users/landon/Development/unraveling-flexbox/unraveling-flexbox/source/stylesheets/chapter3/other_video_player_styles.scss */
+input[type="range"]::-moz-range-track {
+  height: 4px;
+  background: #d5d5d3;
+  border: none;
+  border-radius: 2px; }
+
+/* line 81, /Users/landon/Development/unraveling-flexbox/unraveling-flexbox/source/stylesheets/chapter3/other_video_player_styles.scss */
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  border: none;
+  height: 14px;
+  width: 14px;
+  border-radius: 50%;
+  background: #d5d5d3;
+  margin-top: -5px;
+  border: 1px solid #28271f; }
+
+/* line 85, /Users/landon/Development/unraveling-flexbox/unraveling-flexbox/source/stylesheets/chapter3/other_video_player_styles.scss */
+input[type="range"]::-moz-range-thumb {
+  -webkit-appearance: none;
+  border: none;
+  height: 14px;
+  width: 14px;
+  border-radius: 50%;
+  background: #d5d5d3;
+  margin-top: -5px;
+  border: 1px solid #28271f; }
+
+/* line 89, /Users/landon/Development/unraveling-flexbox/unraveling-flexbox/source/stylesheets/chapter3/other_video_player_styles.scss */
+input[type="range"]::-ms-fill-lower,
+input[type="range"]::-ms-fill-upper {
+  background: transparent; }
+
+/* line 94, /Users/landon/Development/unraveling-flexbox/unraveling-flexbox/source/stylesheets/chapter3/other_video_player_styles.scss */
+input[type="range"]::-ms-ticks-before,
+input[type="range"]::-ms-ticks-after,
+input[type="range"]::-ms-track {
+  color: transparent; }
+
+/* line 100, /Users/landon/Development/unraveling-flexbox/unraveling-flexbox/source/stylesheets/chapter3/other_video_player_styles.scss */
+input[type="range"]::-ms-track {
+  height: 4px;
+  background: #d5d5d3;
+  border: none;
+  border-radius: 2px;
+  height: 14px; }
+
+/* line 105, /Users/landon/Development/unraveling-flexbox/unraveling-flexbox/source/stylesheets/chapter3/other_video_player_styles.scss */
+input[type="range"]::-ms-thumb {
+  -webkit-appearance: none;
+  border: none;
+  height: 14px;
+  width: 14px;
+  border-radius: 50%;
+  background: #d5d5d3;
+  margin-top: -5px;
+  border: 1px solid #28271f;
+  margin-top: 0; }

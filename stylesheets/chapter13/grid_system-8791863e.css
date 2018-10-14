@@ -1,0 +1,126 @@
+/* line 1, /Users/landon/Development/unraveling-flexbox/unraveling-flexbox/source/stylesheets/chapter13/grid_system.scss */
+.row-container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+
+/* line 6, /Users/landon/Development/unraveling-flexbox/unraveling-flexbox/source/stylesheets/chapter13/grid_system.scss */
+.column-container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row; }
+
+/* line 11, /Users/landon/Development/unraveling-flexbox/unraveling-flexbox/source/stylesheets/chapter13/grid_system.scss */
+.row-container > .row, .column-container > .column {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 1 0px;
+      -ms-flex: 1 1 0px;
+          flex: 1 1 0px; }
+
+/* line 20, /Users/landon/Development/unraveling-flexbox/unraveling-flexbox/source/stylesheets/chapter13/grid_system.scss */
+.row-container > .one-row, .column-container > .one-column {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 1 0px;
+      -ms-flex: 1 1 0px;
+          flex: 1 1 0px; }
+
+/* line 20, /Users/landon/Development/unraveling-flexbox/unraveling-flexbox/source/stylesheets/chapter13/grid_system.scss */
+.row-container > .two-row, .column-container > .two-column {
+  -webkit-box-flex: 2;
+  -webkit-flex: 2 2 0px;
+      -ms-flex: 2 2 0px;
+          flex: 2 2 0px; }
+
+/* line 20, /Users/landon/Development/unraveling-flexbox/unraveling-flexbox/source/stylesheets/chapter13/grid_system.scss */
+.row-container > .three-row, .column-container > .three-column {
+  -webkit-box-flex: 3;
+  -webkit-flex: 3 3 0px;
+      -ms-flex: 3 3 0px;
+          flex: 3 3 0px; }
+
+/* line 20, /Users/landon/Development/unraveling-flexbox/unraveling-flexbox/source/stylesheets/chapter13/grid_system.scss */
+.row-container > .four-row, .column-container > .four-column {
+  -webkit-box-flex: 4;
+  -webkit-flex: 4 4 0px;
+      -ms-flex: 4 4 0px;
+          flex: 4 4 0px; }
+
+/* line 20, /Users/landon/Development/unraveling-flexbox/unraveling-flexbox/source/stylesheets/chapter13/grid_system.scss */
+.row-container > .five-row, .column-container > .five-column {
+  -webkit-box-flex: 5;
+  -webkit-flex: 5 5 0px;
+      -ms-flex: 5 5 0px;
+          flex: 5 5 0px; }
+
+/* line 20, /Users/landon/Development/unraveling-flexbox/unraveling-flexbox/source/stylesheets/chapter13/grid_system.scss */
+.row-container > .six-row, .column-container > .six-column {
+  -webkit-box-flex: 6;
+  -webkit-flex: 6 6 0px;
+      -ms-flex: 6 6 0px;
+          flex: 6 6 0px; }
+
+/* line 20, /Users/landon/Development/unraveling-flexbox/unraveling-flexbox/source/stylesheets/chapter13/grid_system.scss */
+.row-container > .seven-row, .column-container > .seven-column {
+  -webkit-box-flex: 7;
+  -webkit-flex: 7 7 0px;
+      -ms-flex: 7 7 0px;
+          flex: 7 7 0px; }
+
+/* line 20, /Users/landon/Development/unraveling-flexbox/unraveling-flexbox/source/stylesheets/chapter13/grid_system.scss */
+.row-container > .eight-row, .column-container > .eight-column {
+  -webkit-box-flex: 8;
+  -webkit-flex: 8 8 0px;
+      -ms-flex: 8 8 0px;
+          flex: 8 8 0px; }
+
+/* line 20, /Users/landon/Development/unraveling-flexbox/unraveling-flexbox/source/stylesheets/chapter13/grid_system.scss */
+.row-container > .nine-row, .column-container > .nine-column {
+  -webkit-box-flex: 9;
+  -webkit-flex: 9 9 0px;
+      -ms-flex: 9 9 0px;
+          flex: 9 9 0px; }
+
+/* line 20, /Users/landon/Development/unraveling-flexbox/unraveling-flexbox/source/stylesheets/chapter13/grid_system.scss */
+.row-container > .ten-row, .column-container > .ten-column {
+  -webkit-box-flex: 10;
+  -webkit-flex: 10 10 0px;
+      -ms-flex: 10 10 0px;
+          flex: 10 10 0px; }
+
+/* line 20, /Users/landon/Development/unraveling-flexbox/unraveling-flexbox/source/stylesheets/chapter13/grid_system.scss */
+.row-container > .eleven-row, .column-container > .eleven-column {
+  -webkit-box-flex: 11;
+  -webkit-flex: 11 11 0px;
+      -ms-flex: 11 11 0px;
+          flex: 11 11 0px; }
+
+/* line 20, /Users/landon/Development/unraveling-flexbox/unraveling-flexbox/source/stylesheets/chapter13/grid_system.scss */
+.row-container > .twelve-row, .column-container > .twelve-column {
+  -webkit-box-flex: 12;
+  -webkit-flex: 12 12 0px;
+      -ms-flex: 12 12 0px;
+          flex: 12 12 0px; }
+
+/* line 25, /Users/landon/Development/unraveling-flexbox/unraveling-flexbox/source/stylesheets/chapter13/grid_system.scss */
+.row-container > .auto-row, .column-container > .auto-column {
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 auto;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto; }
+
+/* line 31, /Users/landon/Development/unraveling-flexbox/unraveling-flexbox/source/stylesheets/chapter13/grid_system.scss */
+.gutter > * {
+  margin-left: 10px;
+  margin-right: 10px; }
